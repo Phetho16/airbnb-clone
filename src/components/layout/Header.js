@@ -44,14 +44,14 @@ const Header = () => {
               </>
             ) : (
               <>
-              <span>Sign Up</span>
-              <span onClick={openModalHandler}>Login</span>
+                <span>Sign Up</span>
+                <span onClick={openModalHandler}>Login</span>
               </>
             )}
             <span>Help</span>
           </div>
         </div>
-     
+
         <Avatar />
       </div>
     </div>

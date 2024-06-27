@@ -1,10 +1,12 @@
 import React, { useState } from 'react'
+import {Link} from 'react-router-dom'
 import "react-date-range/dist/styles.css";
 import "react-date-range/dist/theme/default.css";
 import { DateRangePicker } from 'react-date-range';
 import PeopleIcon from "@mui/icons-material/People"
 import { Button } from '@mui/material';
 import "./Search.css"
+
 
 const Search = () => {
     const [startDate, setStartDate] = useState(new Date());
@@ -21,13 +23,17 @@ const Search = () => {
         setEndDate(ranges.selection.endDate);
     }
   return (
-    <div className='search'>
+   <Link to="/search">
+     <div className='search'>
        <DateRangePicker ranges={[selectionRange]} onChange={handleSelect} />
        <h2>Number of Guests <PeopleIcon />
        </h2>
        <input min={0} defaultValue={2} type='number' />
-       <Button>Search AirBnB</Button> 
+       <Button>Search AirBnB</Button>
+    
+     
     </div>
+   </Link>
   )
 }
 

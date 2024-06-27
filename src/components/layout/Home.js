@@ -29,9 +29,9 @@ const Home = () => {
           description="Campsite in Langkawi, Malaysia"
         />
         <Card
-          src="https://a0.muscache.com/im/pictures/1bd12dfa-f681-4979-b805-b0c7b6b5511c.jpg?im_w=320"
-          title="RentitSpain Cliff House"
-          description="Entire villa in Salobreña, Spain"
+          src="https://a0.muscache.com/im/pictures/6dcdc10d-400a-4ae9-b811-d3271655ecf4.jpg?im_w=320"
+          title="Driftwood Treehouse by the Sea"
+          description="Treehouse in East London, South Africa"
         />
         <Card
           src="https://a0.muscache.com/im/pictures/miso/Hosting-917780628259593306/original/f273fcbe-f1de-48b5-b28d-fa247e2d5646.jpeg?im_w=320"

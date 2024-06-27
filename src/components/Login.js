@@ -16,7 +16,7 @@ const Login = () => {
 
     useEffect(() => {
       if(userInfo) {
-        dispatch(openModal("closed", ""))
+        dispatch(openModal("open", ""))
       }
     }, [dispatch,userInfo])
 

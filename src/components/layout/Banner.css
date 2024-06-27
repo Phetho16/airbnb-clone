@@ -6,10 +6,10 @@
 .banner_info {
     background-color: black;
     color: white;
-    padding-top: 21vh;
+    padding-top: 14vh;
     padding-left: 50px;
     padding-right: 50px;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
     width: 250px;
 }
 .banner_info > button {
@@ -24,7 +24,7 @@
     color: #ff7779;
 }
 .banner_info > h5 {
-    margin-top: 10px;
+    margin-top: 20px;
 }
 .banner_search {
     display: flex;
